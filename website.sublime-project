@@ -1,0 +1,19 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+      "folder_exclude_patterns": [
+        "_site",
+        "_posts"
+      ],
+      "file_exclude_patterns": [
+        "Gemfile*",
+        ".gitignore",
+        "_config.yml",
+        "start.sh",
+        "*.sublime-project"
+      ]
+		}
+	]
+}
