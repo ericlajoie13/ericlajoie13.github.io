@@ -7,11 +7,16 @@ title: Small Cabinet
 
 This one time, at woodworking camp, I made a small cabinet.
 
-![Elevations](images/1420x_Elevations.jpg)
-_Elevations_
+<figure>
+  <img src="images/1420x_Elevations.jpg">
+  <figcaption>
+    Elevations
+  </figcaption>
+</figure>
 
-
-![Elevations](images/1420x_IMG_0598.jpg)
-_Some other crap._
-
-
+<figure>
+  <img src="images/1420x_IMG_0598.jpg">
+  <figcaption>
+    Some other caption
+  </figcaption>
+</figure>

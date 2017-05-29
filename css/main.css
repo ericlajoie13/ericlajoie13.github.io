@@ -30,6 +30,14 @@ h6 { font-size: 1.6rem; line-height: 1.6;  }
   h6 { font-size: 1.7rem; }
 }
 
+figure {
+  margin: 0 0 3.6rem;
+}
+
+figcaption {
+  font-style: italic;
+}
+
 
 .main-sidebar {
   border-bottom: 1px solid #666;
