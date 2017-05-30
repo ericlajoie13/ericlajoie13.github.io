@@ -1,0 +1,36 @@
+# These values are available in `site.data.sidebar.`
+# For example `site.data.sidebar.projects`
+- title: Eric Lajoie
+  url: /
+
+- title: Projects
+  items:
+    - title: My first project
+      url: /projects/dumbproject1/
+    - title: Dumb project 2
+      url: /projects/dumbproject2/
+    - title: Dumb project 3
+      url: /projects/dumbproject3/
+
+- title: Woodworking
+  items:
+    - title: Confetti Chair
+      url: /woodworking/confetti_chair/
+    - title: Small Cabinet
+      url: /woodworking/small_cabinet/
+    - title: Pencil Box
+      url: /woodworking/pencil_box/
+    - title: Sawhorses
+      url: /woodworking/sawhorses/
+    - title: Carving Knife
+      url: /woodworking/carving_knife/
+    - title: Adjustment Hammer
+      url: /woodworking/adjusting_knife/
+    - title: Wooden Planes
+      url: /woodworking/wooden_planes/
+
+- title: Blog
+  url: /blog
+
+- title: About Me
+  url: /about

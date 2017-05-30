@@ -5,6 +5,7 @@ This is a [Jekyll](http://github.com/mojombo/jekyll) powered site.
 ## Structure
 
 ```
+_data/sidebar.yml     -- sidebar configuration
 _layouts/default.html -- main layout
 css/main.css          -- main style sheet
 projects/             -- project pages

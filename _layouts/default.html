@@ -1,36 +1,9 @@
 ---
 # Begin front matter (data area)
 # ----------------------------------------
-# These values are available in `layout.`
-# For example `layout.projects`
 
-projects:
-  - title: Dumb project 1
-    url: /projects/dumbproject1/
-  - title: Dumb project 2
-    url: /projects/dumbproject2/
-  - title: Dumb project 3
-    url: /projects/dumbproject3/
-
-woodworking:
-  - title: Confetti Chair
-    url: /woodworking/confetti_chair/
-  - title: Small Cabinet
-    url: /woodworking/small_cabinet/
-  - title: Pencil Box
-    url: /woodworking/pencil_box/
-  - title: Sawhorses
-    url: /woodworking/sawhorses/
-  - title: Carving Knife
-    url: /woodworking/carving_knife/
-  - title: Adjustment Hammer
-    url: /woodworking/adjusting_knife/
-  - title: Wooden Planes
-    url: /woodworking/wooden_planes/
-
-# End front matter (data area)
 # -----------------------------------------
-
+# End front matter (data area)
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -56,19 +29,17 @@ woodworking:
       <div class="main-sidebar">
         <div class="main-sidebar-inner">
 
-          <!-- Top of Sidebar -->
+        {% for sidebarSection in site.data.sidebar %}
           <div class="sidebar-section">
-            <h3><a href="/">Eric Lajoie</a></h3>
-          </div>
-
-          <!-- Projects Sidebar Section Start -->
-          <div class="sidebar-section">
-            <!-- Section header -->
-            <h3>Projects</h3>
-
-            <!-- Section link list: one for each item in layout.projects above -->
+            <h3>
+              {% if sidebarSection.url %}<a href="{{ sidebarSection.url }}">{% endif %}
+              {{ sidebarSection.title }}
+              {% if sidebarSection.url %}</a>{% endif %}
+            </h3>
+          {% if sidebarSection.items %}
+            <!-- Section link list: one for each item in the section items -->
             <ul class="projects-list sidebar-list">
-              {% for item in layout.projects %}
+              {% for item in sidebarSection.items %}
                 <!-- List item -->
                 <li class="sidebar-item {% if page.url == item.url %}active{% endif %}">
                   <!-- Link for list item -->
@@ -83,44 +54,10 @@ woodworking:
                 </li>
               {% endfor %}
             </ul>
+          {% endif %}
           </div>
-          <!-- End Projects Sidebar Section -->
 
-
-          <!-- Woodworking Sidebar Section Start -->
-          <div class="sidebar-section">
-            <h3>Woodworking</h3>
-            <ul class="woodworking-list sidebar-list">
-              {% for item in layout.woodworking %}
-                <li class="sidebar-item {% if page.url == item.url %}active{% endif %}">
-                  <a href="{{ item.url }}">
-                    <span class="sidebar-item-title">
-                      <span class="sidebar-item-title-inner">
-                        {{ item.title }}
-                      </span>
-                    </span>
-                  </a>
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
-          <!-- End Woodworking Sidebar Section -->
-
-
-          <!-- Blog Sidebar Section -->
-          <div class="sidebar-section">
-            <h3><a href="/blog">Blog</a></h3>
-          </div>
-          <!-- End Blog Sidebar Section -->
-
-
-          <!-- About Sidebar Section -->
-          <div class="sidebar-section">
-            <h3><a href="/about">About</a></h3>
-          </div>
-          <!-- End About Sidebar Section -->
-
-
+        {% endfor %}
           <!-- Bottom of Sidebar -->
         </div>
       </div>
