@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: project
 title: Confetti Chair
+images:
+  - filename: myfile.jpg
+    caption: |
+      My Caption
 ---
-
-# Confetti Chair
-
-

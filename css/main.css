@@ -35,6 +35,7 @@ figure {
 }
 
 figcaption {
+  white-space: pre-wrap;
 }
 
 

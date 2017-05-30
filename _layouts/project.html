@@ -1,0 +1,21 @@
+---
+# Begin front matter (data area)
+# ----------------------------------------
+layout: default
+
+# -----------------------------------------
+# End front matter (data area)
+---
+
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+<div class="project-images">
+{% for image in page.images %}
+  <figure>
+    <img src="images/{{ image.filename }}">
+    <figcaption>{{ image.caption}}</figcaption>
+  </figure>
+{% endfor %}
+</div>
