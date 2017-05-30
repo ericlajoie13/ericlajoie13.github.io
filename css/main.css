@@ -48,10 +48,9 @@ figcaption {
   .main-sidebar {
     position: fixed;
     overflow: auto;
-    width: 200px;
+    width: 180px;
     top: 16px;
     bottom: 16px;
-    padding-right: 16px;
     border-bottom: 0;
     margin-bottom: 0;
     box-sizing: border-box;
@@ -59,10 +58,11 @@ figcaption {
 
   .main-sidebar-inner {
     border-right: 1px solid #666;
+    padding-right: 16px;
   }
 
   .main-content {
-    margin-left: 217px;
+    margin-left: 200px;
   }
 }
 
