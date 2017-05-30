@@ -49,7 +49,6 @@ woodworking:
 
     <!-- Page Title -->
     <title>{{ page.title }} - Eric Lajoie</title>
-
   </head>
   <body>
     <div class="container main-body">
@@ -134,5 +133,21 @@ woodworking:
       </div>
       <!-- Main Content Area End -->
     </div>
+
+
+
+    <!-- Include javascript -->
+    <script src="/js/main.js"></script>
+    <style>
+    /* make sure images are visible *AFTER* running the js.
+       Important to do this after the JS, but in CSS so that even if JS
+       is disabled, the images are visible. After the JS so they are
+       properly sized before being shown.
+     */
+    .main-content img {
+      visibility: visible;
+    }
+    </style>
+
   </body>
 </html>
