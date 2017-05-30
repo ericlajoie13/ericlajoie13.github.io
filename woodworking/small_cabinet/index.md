@@ -5,7 +5,8 @@ title: Small Cabinet
 
 # Small Cabinet
 
-This one time, at woodworking camp, I made a small cabinet.
+Materials: <br />
+Poplar, French Walnut, Bass.
 
 <figure>
   <img src="images/1420x_elevations.jpg">
@@ -18,7 +19,7 @@ This one time, at woodworking camp, I made a small cabinet.
 <figure>
   <img src="images/1420x_door_pull.jpg">
   <figcaption>
-    Recessed  pull in cabinet door made with carving knife.
+    Recessed pull in cabinet door made with carving knife.
   </figcaption>
 </figure>
 
