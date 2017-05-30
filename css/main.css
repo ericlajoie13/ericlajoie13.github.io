@@ -30,6 +30,15 @@ h6 { font-size: 1.6rem; line-height: 1.6;  }
   h6 { font-size: 1.7rem; }
 }
 
+h6 {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+ol {
+  margin-left: 3rem;
+}
+
 figure {
   margin: 0 0 3.6rem;
 }
