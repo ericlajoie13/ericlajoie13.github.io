@@ -22,7 +22,7 @@ images:
 ---
 
 ###### Materials:
-Fir, Cypress, Arbutus
+Fir, Cypress, Arbutus.
 
 ###### Process:
 1. Mill Stock for front, back and sides of box. Straighten grain if necessary.
