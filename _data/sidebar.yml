@@ -3,13 +3,13 @@
 - title: Eric Lajoie
   url: /
 
-- title: Projects
+- title: Academic
   items:
-    - title: My first project
+    - title: Thesis
       url: /projects/dumbproject1/
-    - title: Dumb project 2
+    - title: Project 1
       url: /projects/dumbproject2/
-    - title: Dumb project 3
+    - title: Project 2
       url: /projects/dumbproject3/
 
 - title: Woodworking
