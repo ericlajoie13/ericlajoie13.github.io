@@ -6,6 +6,7 @@ images:
     caption: |
       Confetti Chair Elevations
 ---
+
 ###### Description:
 Wood is a precious resource, and many species are in decline due to over-harvesting. The confetti chair attempts to begin a dialogue between a precious hardwood (Ash) and recycled materials originating from wood (OSB, Fiber Rush) in a form that celebrates them both. OSB, which is made by gluing and pressing offcuts from milling processes together, makes up the bulk of the material of the chair. Ash, which is know for its utilitarian strength, is used selectively as loose tenons and the seat rails which experience the greatest amount of force. The seat and backrest are weaved with fiber rush, which is a continuous twisted strand of tough recycled paper.
 
