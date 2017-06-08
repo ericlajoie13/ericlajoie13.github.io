@@ -9,6 +9,15 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
+<div class="project-landing">
+{% for image in page.landing %}
+  <figure>
+    <img src="landing/{{ image.filename }}">
+    <figcaption>{{ image.caption}}</figcaption>
+  </figure>
+{% endfor %}
+</div>
+
 {{ content }}
 
 <div class="project-images">
