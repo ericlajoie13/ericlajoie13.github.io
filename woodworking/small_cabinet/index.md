@@ -1,12 +1,10 @@
 ---
 layout: project
 title: Small Cabinet
-images:
+landing:
   - filename: 1420x_elevations.jpg
     caption: |
-      Elevations of Small Cabinet:
-      Front, Left Side, Back, Right Side
-
+images:
   - filename: 1420x_door_pull.jpg
     caption: |
       Recessed pull in cabinet door made with carving knife.

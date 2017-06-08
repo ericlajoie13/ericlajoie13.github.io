@@ -1,11 +1,10 @@
 ---
 layout: project
 title: Carving Knife
-images:
+landing:
   - filename: 1420x_knife.jpg
     caption: |
-      Carving knife
-
+images:
   - filename: 1420x_blade.jpg
     caption: |
       Whipping twine is used to provide extra grip for thumb, and reinforcement to the thin wooden cheeks which sandwich the blade.

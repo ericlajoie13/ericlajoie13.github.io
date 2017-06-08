@@ -1,11 +1,9 @@
 ---
 layout: project
 title: Adjustment Hammer
-images:
+landing:
   - filename: 1420x_hammer.jpg
-    caption: |
-      Adjustment hammer
-
+images:
   - filename: 1420x_hammer_front.jpg
     caption: |
       Oak wedges in tenon are lighter in colour, but harder then teak in order to compress the wood of the handle and create a tight fit in the mortise.

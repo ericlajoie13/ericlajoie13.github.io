@@ -1,11 +1,10 @@
 ---
 layout: project
 title: Pencil Box
-images:
+landing:
   - filename: 1420x_box_1.jpg
     caption: |
-      Fir Box with original piece and extra stock milled.
-
+images:
   - filename: 1420x_box_4.jpg
     caption: |
       The panel for the bottom of the box is cypress and the pull is arbutus making all the materials used local to the west coast.

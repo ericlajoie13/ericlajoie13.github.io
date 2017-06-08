@@ -1,11 +1,10 @@
 ---
 layout: project
 title: Tabletop Sawhorses
-images:
+landing:
   - filename: 1420x_sawhorses.jpg
     caption: |
-      Tabletop Sawhorses
-
+images:
   - filename: 1420x_foot_tenon.jpg
     caption: |
       Mortise and tenon joint in bottom of feet.
