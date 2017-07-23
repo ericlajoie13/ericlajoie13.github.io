@@ -8,7 +8,7 @@ landing:
 images:
   - filename: 1420x_site_plan.jpg
     caption: |
-      Site plan of False Creek, Vancouver, Canada. Indicating the location of the three bridges involved in this project. From right to left: Burrard Bridge, Granville Bridge and Cambie Bridge.
+      Site plan of False Creek, Vancouver, Canada. Indicating the location of the three bridges involved in this project. From left to right: Burrard Bridge, Granville Bridge and Cambie Bridge.
 
   - filename: 1420x_burrard_main.jpg
     caption: |
