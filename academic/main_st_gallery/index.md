@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Crowdfunding Main St. Art Gallery
+title: Crowdfunding Main St. Outdoor Art Gallery
 images:
   - filename: 1420x_site_map.jpg
     caption: |
