@@ -4,7 +4,7 @@ title: Cement Earrings
 landing:
   - filename: 1420x_all.jpg
     caption:
-      Photo by [Jen Leung](http://www.jendileau.com)
+      Photo by <a href="http://www.jendileau.com">Jen Leung</a>
 
 images:
   - filename: 1420x_moulds.jpg
@@ -13,11 +13,11 @@ images:
 
   - filename: 1420x_round.jpg
     caption: |
-      Photo by [Jen Leung](http://www.jendileau.com)
+      Photo by <a href="http://www.jendileau.com">Jen Leung</a>
 
   - filename: 1420x_rectangles.jpg
     caption: |
-      Photo by [Jen Leung](http://www.jendileau.com)
+      Photo by <a href="http://www.jendileau.com">Jen Leung</a>
 ---
 
 ###### Materials:
