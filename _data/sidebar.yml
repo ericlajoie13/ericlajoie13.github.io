@@ -10,7 +10,10 @@
     - title: Main St. Gallery
       url: /academic/main_st_gallery/
     - title: Concrete Tea House
-      url: /projects/concrete_tea_house/
+      url: /academic/concrete_tea_house/
+    - title: Archive
+      url: /academic/bc_truth_and_reconciliation_archive/
+
 
 - title: Woodworking
   items:
