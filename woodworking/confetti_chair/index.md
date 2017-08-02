@@ -5,6 +5,21 @@ landing:
   - filename: confetti_chair_elevations.jpg
     caption: |
 images:
+  - filename: 1420x_template.jpg
+    caption: |
+      Using a template to cut out two identical sides.
+
+  - filename: 1420x_frame.jpg
+    caption: |
+      Chair frame assenbled with sides and stretchers and backrest placeholder.
+
+  - filename: 1420x_seat_wrap.jpg
+    caption: |
+      Wrapping the seat with fiber rush.
+
+  - filename: 1420x_backrest.jpg
+    caption: |
+      Detail of backrest.
 
 
 ---
