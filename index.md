@@ -4,7 +4,7 @@ title: Home
 ---
 
 # Eric Lajoie
-Cabinet Maker, Carpenter, Designer. B.Arch, M.Arch
+Cabinetmaker, Carpenter, Designer. B.Arch, M.Arch.
 
 I like to make beautiful things.
 
