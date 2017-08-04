@@ -11,7 +11,7 @@ images:
 
   - filename: 1420x_frame.jpg
     caption: |
-      Chair frame assenbled with sides and stretchers and backrest placeholder.
+      Chair frame assembled with sides and stretchers and backrest placeholder.
 
   - filename: 1420x_seat_wrap.jpg
     caption: |
